@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa [
+        <!ELEMENT Empresa (Empleat+)>
+        <!ELEMENT Empleat (Cognom1, Cognom2, Nom, NumEmpleat, (CorreuElectronic | Telefon), Adreca)>
+        <!ELEMENT Cognom1 (#PCDATA)>
+        <!ELEMENT Cognom2 (#PCDATA)>
+        <!ELEMENT Nom (#PCDATA)>
+        <!ELEMENT NumEmpleat (#PCDATA)>
+        <!ELEMENT CorreuElectronic (#PCDATA)>
+        <!ELEMENT Telefon (#PCDATA)>
+        <!ELEMENT Adreca (Carrer, Ciutat, CP)>
+        <!ELEMENT Carrer (#PCDATA)>
+        <!ELEMENT Ciutat (#PCDATA)>
+        <!ELEMENT CP (#PCDATA)>
+        ]>
+
+<Empresa>
+    <Empleat>
+        <Cognom1>Perez</Cognom1>
+        <Cognom2>Sanchez</Cognom2>
+        <Nom>Joan</Nom>
+        <NumEmpleat>1234567890</NumEmpleat>
+        <CorreuElectronic>joanperez@gmail.com</CorreuElectronic>
+        <Adreca>
+            <Carrer>Carrer de Pau Claris, 121</Carrer>
+            <Ciutat>Barcelona</Ciutat>
+            <CP>08009</CP>
+        </Adreca>
+    </Empleat>
+    <Empleat>
+        <Cognom1>Ramirez</Cognom1>
+        <Cognom2>Sanchez</Cognom2>
+        <Nom>Josep</Nom>
+        <NumEmpleat>0987654321</NumEmpleat>
+        <CorreuElectronic>josepramirez@gmail.com</CorreuElectronic>
+        <Adreca>
+            <Carrer>Carrer de Pau Claris, 122</Carrer>
+            <Ciutat>Barcelona</Ciutat>
+            <CP>08009</CP>
+        </Adreca>
+    </Empleat>
+</Empresa>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<gimnasos>
+    <gimnas>
+        <nom>Dor</nom>
+        <activitats>
+            <activitat>Crossfit</activitat>
+            <activitat>Pilates</activitat>
+            <activitat>Ioga</activitat>
+        </activitats>
+        <ubicacio>Av. hipotenusa 232</ubicacio>
+        <propietari>Inuyasha</propietari>
+        <valoracio>4,5</valoracio>
+    </gimnas>
+    <gimnas>
+        <nom>Aquòpolis</nom>
+        <ubicacio>C/ Tangent 111</ubicacio>
+        <propietari>Arthur Connan</propietari>
+        <!-- No s'especifiquen les activitats realitzades al centre esportiu ni la valoració-->
+    </gimnas>
+    <gimnas>
+        <nom>Muscle man</nom>
+        <ubicacio>Av. Angle 222</ubicacio>
+        <activitats>
+            <activitat>Halterofília</activitat>
+            <activitat>Crossfit</activitat>
+            <activitat>Natació</activitat>
+            <activitat>Atletisme</activitat>
+        </activitats>
+        <propietari>Son Goku</propietari>
+        <valoracio>3,5</valoracio>
+            <numeroderessenyes>256</numeroderessenyes>
+    </gimnas>
+</gimnasos>

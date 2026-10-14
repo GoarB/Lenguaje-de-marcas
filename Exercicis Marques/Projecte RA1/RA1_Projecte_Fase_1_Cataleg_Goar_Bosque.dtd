@@ -1,0 +1,19 @@
+<!ELEMENT
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT divisa (#PCDATA)>
+    <!ELEMENT actualitzat (#PCDATA)>
+    <!ELEMENT cataleg (producte)>
+    <!ELEMENT producte (nomjoc, generes, caracteristiques, distribuidora, developer, preu, consola,
+            valoracio_usuari, valoracio_critica, data_publicacio, descripcio, estoc)>
+        <!ELEMENT nomjoc (#PCDATA)>
+        <!ELEMENT generes (#PCDATA)>
+        <!ELEMENT caracteristiques (#PCDATA)>
+        <!ELEMENT distribuidora (#PCDATA)>
+        <!ELEMENT developer (#PCDATA)>
+        <!ELEMENT preu (#PCDATA)>
+        <!ELEMENT consola (#PCDATA)>
+        <!ELEMENT valoracio_usuari (#PCDATA)>
+        <!ELEMENT valoracio_critica (#PCDATA)>
+        <!ELEMENT data_publicacio (#PCDATA)>
+        <!ELEMENT descripcio (#PCDATA)>
+        <!ELEMENT estoc (#PCDATA)>

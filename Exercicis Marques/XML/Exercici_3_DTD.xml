@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE matricula [
+    <!ELEMENT matricula (cicle, alumnes)>
+    <!ELEMENT cicle (#PCDATA)>
+    <!ELEMENT alumnes (alumne)+>
+    <!ELEMENT alumne (nom, any, assignatures)>
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT any (#PCDATA)>
+    <!ELEMENT assignatures (assignatura)+>
+    <!ELEMENT assignatura (#PCDATA)>
+]>
+
+<matricula>
+    <cicle>DAM</cicle>
+    <alumnes>
+        <alumne>
+            <nom>Goar</nom>
+            <any>1932</any>
+            <assignatures>
+                <assignatura>Programació</assignatura>
+                <assignatura>Llenguatge de marques</assignatura>
+                <assignatura>Bases de dades</assignatura>
+            </assignatures>
+        </alumne>
+        <alumne>
+            <nom>Jose</nom>
+            <any>2000</any>
+            <assignatures>
+                <assignatura>Programació</assignatura>
+                <assignatura>Llenguatge de marques</assignatura>
+                <assignatura>IPO I</assignatura>
+            </assignatures>
+        </alumne>
+    </alumnes>
+</matricula>

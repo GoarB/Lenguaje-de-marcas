@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<videojocs>
+    <videojoc>
+        <nom>The legend of Zelda</nom>
+        <developer>Nintendo</developer>
+        <any>1986</any>
+        <generes>
+            <genere>Acció</genere>
+            <genere>Aventura</genere>
+        </generes>
+        <!-- No s'especifica modalitat -->
+    </videojoc>
+    <videojoc>
+        <nom>FIFA</nom>
+        <developer>EA Sports</developer>
+        <any>1993</any>
+        <genere>Esports</genere>
+        <modalitats>
+            <modalitat>Multiplayer</modalitat>
+            <modalitat>Singleplayer</modalitat>
+        </modalitats>
+    </videojoc>
+    <videojoc>
+        <nom>League of Legends</nom>
+        <developer>Riot Games</developer>
+        <any>2009</any>
+        <genere>Combat</genere>
+        <modalitat>Multiplayer</modalitat>
+    </videojoc>
+
+</videojocs>

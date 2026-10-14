@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE persona [
+    <!ELEMENT persona (nom, dona, data_naixement, ciutat)>
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT dona EMPTY>
+    <!ELEMENT  data_naixement EMPTY>
+    <!ATTLIST data_naixement 
+            dia CDATA #REQUIRED
+            mes CDATA #REQUIRED
+            any CDATA #FIXED "2000">
+    <!ELEMENT ciutat (#PCDATA)>
+]>
+<persona>
+    <nom>Pere</nom>
+    <dona/>
+    <data_naixement dia="23" mes="6" any="2000"></data_naixement>
+    <ciutat>Sabadell</ciutat>
+</persona>

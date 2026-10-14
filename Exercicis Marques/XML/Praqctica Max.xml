@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cites>
+    <cita1>
+        <name>alba casamitjana</name>
+        <residence>parets del valles</residence>
+        <cita>&quot;m'encanta el pans&amp;company&quot;</cita>
+    </cita1>
+    <cita2>
+        <name>joana puig</name>
+        <residence>mollet</residence>
+        <cita>[CDATA["si x>y, y>z i z>q"]]</cita>
+        <!-- La Joana ho va dir al 2016-->
+    </cita2>
+</cites>

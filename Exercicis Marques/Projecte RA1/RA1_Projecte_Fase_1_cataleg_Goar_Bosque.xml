@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<botiga llenguatge="ca">
+
+    <nom>Only Gamer</nom>
+
+    <divisa>EUR</divisa>
+
+    <actualitzat>11/10/2026</actualitzat>
+
+    <cataleg>
+        <!-- L'atribut codi identifica de manera única cada videojoc del catàleg. -->
+        <producte codi="PROD-001">
+            <nomjoc>The Legend of Zelda: The Wind Waker</nomjoc>
+
+            <!-- Gènere pot contenir més d'un camp, per exemple RPG i estratègia. -->
+            <generes>
+                <genere>Aventura</genere>
+                <genere>Acció</genere>
+            </generes>
+
+            <!-- Caracteristiques es reserva com a camp per a la modalitat (singleplayer, multiplayer, etc). -->
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Nintendo</distribuidora>
+            <developer>Nintendo</developer>
+
+            <preu>40.00</preu>
+
+            <consola>GameCube</consola>
+
+            <valoracio_usuaris quantitat="2277" escala="10">9.0</valoracio_usuaris>
+            <valoracio_critica quantitat="80" escala="100">96</valoracio_critica>
+
+            <data_publicacio>24/03/2003</data_publicacio>
+
+            <descripcio>
+                Link navega per un vast oceà per rescatar la seva germana i aturar una nova amenaça.
+                El Wind Waker li permet controlar el vent durant la seva aventura.
+            </descripcio>
+            <estoc>8</estoc>
+        </producte>
+
+
+        <producte codi="PROD-002">
+            <nomjoc>Red Dead Redemption 2</nomjoc>
+
+            <generes>
+                <genere>Acció</genere>
+                <genere>Món obert</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+                <caracteristica>Multiplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Rockstar Games</distribuidora>
+            <developer>Rockstar Games</developer>
+
+            <preu>29.99</preu>
+
+            <consola>PlayStation 4</consola>
+
+            <valoracio_usuaris quantitat="36432" escala="10">9.0</valoracio_usuaris>
+            <valoracio_critica quantitat="99" escala="100">97</valoracio_critica>
+
+            <data_publicacio>26/10/2018</data_publicacio>
+
+            <descripcio>
+                Arthur Morgan i la banda de Van der Linde intenten sobreviure durant els últims anys del salvatge oest.
+                El joc ofereix un gran món obert amb una història centrada en la lleialtat, el conflicte i la supervivència.
+            </descripcio>
+
+            <estoc>6</estoc>
+        </producte>
+
+
+        <producte codi="PROD-003">
+            <nomjoc>Grand Theft Auto V</nomjoc>
+
+            <generes>
+                <genere>Acció</genere>
+                <genere>Món obert</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+                <caracteristica>Multiplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Rockstar Games</distribuidora>
+            <developer>Rockstar North</developer>
+
+            <preu>24.99</preu>
+
+            <consola>PlayStation 4</consola>
+
+            <valoracio_usuaris quantitat="17063" escala="10">8.5</valoracio_usuaris>
+            <valoracio_critica quantitat="66" escala="100">97</valoracio_critica>
+
+            <data_publicacio>18/11/2014</data_publicacio>
+
+            <descripcio>
+                Tres criminals molt diferents uneixen forces per dur a terme atracaments a la ciutat de Los Santos.
+                El joc combina missions narratives amb una gran llibertat d'exploració en un món obert.
+            </descripcio>
+
+            <estoc>10</estoc>
+        </producte>
+
+
+        <producte codi="PROD-004">
+            <nomjoc>Baldur's Gate 3</nomjoc>
+
+            <generes>
+                <genere>RPG</genere>
+                <genere>Rol occidental</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+                <caracteristica>Multiplayer</caracteristica>
+                <caracteristica>Cooperatiu</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Larian Studios Games</distribuidora>
+            <developer>Larian Studios Games</developer>
+
+            <preu>59.99</preu>
+
+            <consola>PC</consola>
+
+            <valoracio_usuaris quantitat="21383" escala="10">9.1</valoracio_usuaris>
+            <valoracio_critica quantitat="112" escala="100">96</valoracio_critica>
+
+            <data_publicacio>03/08/2023</data_publicacio>
+
+            <descripcio>
+                El jugador forma un grup d'aventurers i explora els Forgotten Realms mentre intenta resistir la influència d'un paràsit.
+                Les decisions del jugador modifiquen els personatges, els conflictes i el desenvolupament de la història.
+            </descripcio>
+
+            <estoc>5</estoc>
+        </producte>
+
+
+        <producte codi="PROD-005">
+            <nomjoc>Portal 2</nomjoc>
+
+            <generes>
+                <genere>FPS</genere>
+                <genere>Puzles</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+                <caracteristica>Cooperatiu</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Valve Software</distribuidora>
+            <developer>Valve Software</developer>
+
+            <preu>9.99</preu>
+
+            <consola>PC</consola>
+
+            <valoracio_usuaris quantitat="4033" escala="10">8.9</valoracio_usuaris>
+            <valoracio_critica quantitat="66" escala="100">95</valoracio_critica>
+
+            <data_publicacio>19/04/2011</data_publicacio>
+
+            <descripcio>
+                El jugador resol puzles utilitzant portals per desplaçar-se i manipular l'entorn d'Aperture Science.
+                La campanya combina reptes lògics, humor i una història protagonitzada per GLaDOS.
+            </descripcio>
+
+            <estoc>12</estoc>
+        </producte>
+
+
+        <producte codi="PROD-006">
+            <nomjoc>Hades</nomjoc>
+
+            <generes>
+                <genere>Action RPG</genere>
+                <genere>Roguelike</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Supergiant Games</distribuidora>
+            <developer>Supergiant Games</developer>
+
+            <preu>24.99</preu>
+
+            <consola>Nintendo Switch</consola>
+
+            <valoracio_usuaris quantitat="5211" escala="10">8.5</valoracio_usuaris>
+            <valoracio_critica quantitat="58" escala="100">93</valoracio_critica>
+
+            <data_publicacio>17/09/2020</data_publicacio>
+
+            <descripcio>
+                Zagreus intenta escapar de l'Inframón mentre lluita contra nombrosos enemics i rep l'ajuda dels déus de l'Olimp.
+                Cada intent permet desbloquejar noves habilitats, armes i elements narratius.
+            </descripcio>
+
+            <estoc>7</estoc>
+        </producte>
+
+
+        <producte codi="PROD-007">
+            <nomjoc>The Last of Us Part II</nomjoc>
+
+            <generes>
+                <genere>Survival</genere>
+                <genere>Acció</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Sony Interactive Entertainment</distribuidora>
+            <developer>Naughty Dog</developer>
+
+            <preu>39.99</preu>
+
+            <consola>PlayStation 4</consola>
+
+            <valoracio_usuaris quantitat="168122" escala="10">5.9</valoracio_usuaris>
+            <valoracio_critica quantitat="121" escala="100">93</valoracio_critica>
+
+            <data_publicacio>19/06/2020</data_publicacio>
+
+            <descripcio>
+                Ellie inicia un viatge marcat per la venjança després que un esdeveniment violent trenqui la seva vida a Jackson.
+                La història explora les conseqüències físiques i emocionals de les seves decisions.
+            </descripcio>
+
+            <estoc>4</estoc>
+        </producte>
+
+
+        <producte codi="PROD-008">
+            <nomjoc>Resident Evil 4</nomjoc>
+
+            <generes>
+                <genere>Survival</genere>
+                <genere>Terror</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Capcom</distribuidora>
+            <developer>Capcom</developer>
+
+            <preu>44.99</preu>
+
+            <consola>PlayStation 5</consola>
+
+            <valoracio_usuaris quantitat="9297" escala="10">9.0</valoracio_usuaris>
+            <valoracio_critica quantitat="126" escala="100">93</valoracio_critica>
+
+            <data_publicacio>24/03/2023</data_publicacio>
+
+            <descripcio>
+                Leon S. Kennedy viatja a una zona rural d'Europa per investigar el segrest de la filla del president dels Estats Units.
+                El joc actualitza el clàssic original amb nous gràfics, controls i elements narratius.
+            </descripcio>
+
+            <estoc>6</estoc>
+        </producte>
+
+
+        <producte codi="PROD-009">
+            <nomjoc>Mario Kart 8 Deluxe</nomjoc>
+
+            <generes>
+                <genere>Curses</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+                <caracteristica>Multiplayer</caracteristica>
+                <caracteristica>Multijugador local</caracteristica>
+                <caracteristica>Multijugador online</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>Nintendo</distribuidora>
+            <developer>Nintendo</developer>
+
+            <preu>49.99</preu>
+
+            <consola>Nintendo Switch</consola>
+
+            <valoracio_usuaris quantitat="4674" escala="10">8.6</valoracio_usuaris>
+            <valoracio_critica quantitat="95" escala="100">92</valoracio_critica>
+
+            <data_publicacio>28/04/2017</data_publicacio>
+
+            <descripcio>
+                Els personatges de Nintendo competeixen en circuits utilitzant vehicles, objectes i diferents estratègies de conducció.
+                Aquesta versió inclou curses, batalles i opcions multijugador locals i online.
+            </descripcio>
+
+            <estoc>9</estoc>
+        </producte>
+
+
+        <producte codi="PROD-010">
+            <!-- L'entitat &amp; representa el caràcter reservat "&" dins del text XML. -->
+            <nomjoc>Ratchet &amp; Clank: Rift Apart</nomjoc>
+
+            <generes>
+                <genere>Plataformes 3D</genere>
+                <genere>Acció</genere>
+            </generes>
+
+            <caracteristiques>
+                <caracteristica>Singleplayer</caracteristica>
+            </caracteristiques>
+
+            <distribuidora>PlayStation Studios</distribuidora>
+            <developer>Insomniac Games</developer>
+
+            <preu>49.99</preu>
+
+            <consola>PlayStation 5</consola>
+
+            <valoracio_usuaris quantitat="4239" escala="10">8.5</valoracio_usuaris>
+            <valoracio_critica quantitat="127" escala="100">88</valoracio_critica>
+
+            <data_publicacio>11/06/2021</data_publicacio>
+
+            <descripcio>
+                Ratchet i Clank viatgen entre diferents dimensions durant una aventura plena d'acció i plataformes.
+                El joc aprofita les característiques tècniques de PlayStation 5 per crear transicions ràpides entre mons.
+            </descripcio>
+
+            <estoc>3</estoc>
+        </producte>
+    </cataleg>
+</botiga>

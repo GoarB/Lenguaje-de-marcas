@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (llibre+, tiquet+)>
+    <!ELEMENT llibre (#PCDATA)>
+    <!ATTLIST llibre 
+                ISBN ID #REQUIRED 
+                titol CDATA #REQUIRED>
+    <!ELEMENT tiquet (#PCDATA)>
+    <!ATTLIST tiquet 
+                venta1 IDREFS #REQUIRED 
+                preu CDATA #REQUIRED>
+]>
+<biblioteca>
+   <llibre ISBN="A9788497592581" titol="L'origen de les espècies"/>
+   <llibre ISBN="A978849759251" titol="La Celestina"/>
+   <llibre ISBN="A8481301264" titol="El nom de la Rosa"/>
+   <tiquet venta1="A9788497592581 A978849759251" preu="38€"/>
+   <tiquet venta1="A978849759251" preu="12€"></tiquet>
+</biblioteca>
