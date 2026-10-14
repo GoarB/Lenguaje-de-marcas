@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE botiga SYSTEM "RA1_Projecte_Fase_1_Cataleg_Goar_Bosque.dtd">
 
-<botiga llenguatge="ca">
+<botiga xml:lang="ca">
 
     <nom>Only Gamer</nom>
 

@@ -1,19 +1,25 @@
-<!ELEMENT
-    <!ELEMENT nom (#PCDATA)>
-    <!ELEMENT divisa (#PCDATA)>
-    <!ELEMENT actualitzat (#PCDATA)>
-    <!ELEMENT cataleg (producte)>
-    <!ELEMENT producte (nomjoc, generes, caracteristiques, distribuidora, developer, preu, consola,
-            valoracio_usuari, valoracio_critica, data_publicacio, descripcio, estoc)>
+<!ELEMENT botiga (nom, divisa, actualitzat, cataleg)>
+        <!ATTLIST botiga xml:lang NMTOKEN "ca">
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT divisa (#PCDATA)>
+        <!ELEMENT actualitzat (#PCDATA)>
+        <!ELEMENT cataleg (producte+)>
+        <!ELEMENT producte (nomjoc, generes, caracteristiques, distribuidora, developer, preu, consola,
+            valoracio_usuaris, valoracio_critica, data_publicacio, descripcio, estoc)>
+        <!ATTLIST producte codi CDATA #REQUIRED>
         <!ELEMENT nomjoc (#PCDATA)>
-        <!ELEMENT generes (#PCDATA)>
-        <!ELEMENT caracteristiques (#PCDATA)>
+        <!ELEMENT generes (genere+)>
+        <!ELEMENT genere (#PCDATA)>
+        <!ELEMENT caracteristiques (caracteristica+)>
+        <!ELEMENT caracteristica (#PCDATA)>
         <!ELEMENT distribuidora (#PCDATA)>
         <!ELEMENT developer (#PCDATA)>
         <!ELEMENT preu (#PCDATA)>
         <!ELEMENT consola (#PCDATA)>
-        <!ELEMENT valoracio_usuari (#PCDATA)>
+        <!ELEMENT valoracio_usuaris (#PCDATA)>
+        <!ATTLIST valoracio_usuaris quantitat CDATA #IMPLIED escala CDATA #IMPLIED>
         <!ELEMENT valoracio_critica (#PCDATA)>
+        <!ATTLIST valoracio_critica quantitat CDATA #IMPLIED escala CDATA #IMPLIED>
         <!ELEMENT data_publicacio (#PCDATA)>
         <!ELEMENT descripcio (#PCDATA)>
         <!ELEMENT estoc (#PCDATA)>
