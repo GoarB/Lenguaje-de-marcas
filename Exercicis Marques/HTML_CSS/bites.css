@@ -1,0 +1,156 @@
+/* Propietats de visualització */
+
+/* ---------- DISPLAY ---------- */
+.block {
+  display: block;
+  background-color: lightgreen;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: lightcoral;
+  padding: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: lightblue;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.none {
+  display: none; /* no es mostra ni ocupa espai */
+}
+
+/* ---------- VISIBILITY ---------- */
+.visible {
+  visibility: visible;
+  background-color: lightyellow;
+}
+
+.ocult {
+  visibility: hidden; /* no es veu però ocupa espai */
+  background-color: lightgray;
+}
+
+/* ---------- OPACITY ---------- */
+.transparent {
+  background-color: orange;
+  opacity: 0.5; /* 50% transparent */
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* ---------- OVERFLOW ---------- */
+.overflow {
+  width: 500px;
+  height: 60px;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 5px;
+}
+
+.overflow.visible {
+  overflow: visible;
+}
+
+.overflow.hidden {
+  overflow: hidden;
+}
+
+.overflow.scroll {
+  overflow: scroll;
+}
+
+.overflow.auto {
+  overflow: auto;
+}
+
+/* ---------- POSITION ---------- */
+.container {
+  position: relative;
+  height: 400px;
+  border: 2px dashed gray;
+  margin-bottom: 30px;
+}
+
+.caixa {
+  width: 100px;
+  height: 50px;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+}
+
+/* Propietat POSITION
+Defineix com es col·loca un element dins de la pàgina.
+Cada valor (static, relative, absolute, fixed, sticky) 
+fa que el navegador calculi la seva posició d’una manera diferent.
+*/
+
+/*STATIC
+És la posició per defecte. 
+Els elements es col·loquen un darrere l’altre segons l’ordre del codi HTML.
+No fan cas de propietats com top, left, right o bottom.
+*/
+.static {
+  position: static; /* posició per defecte */
+}
+
+/*RELATIVE
+L’element es posiciona respecte a la seva posició original.
+Podem moure’l amb top, left, right o bottom.
+El seu espai original a la pàgina es manté reservat.
+*/
+.relative {
+  position: relative;
+  top: 20px;  /* baixa 20 píxels respecte a la seva posició original */
+  left: 30px; /* es mou 30 píxels cap a la dreta */
+  background-color: teal;
+}
+
+/*ABSOLUTE
+L’element es treu del flux normal de la pàgina.
+Es posiciona segons el primer element pare que tingui position: relative (o el <body> si no n’hi ha cap).
+Els altres elements no el tenen en compte, com si “flotés”.
+*/
+.absolute {
+  position: absolute;
+  top: 50px;   /* distància des de la part superior del contenidor pare */
+  right: 10px; /* distància des del costat dret del contenidor pare */
+  background-color: darkorange;
+}
+
+/*FIXED
+L’element es posiciona respecte al viewport (la finestra del navegador).
+Sempre queda fixat a la mateixa posició encara que fem scroll.
+S’utilitza, per exemple, per menús o botons flotants.
+*/
+.fixed {
+  position: fixed;
+  bottom: 10px; /* 10 píxels des de la part inferior de la pantalla */
+  right: 10px;  /* 10 píxels des del costat dret de la pantalla */
+  background-color: crimson;
+}
+
+/*STICKY
+Combina comportaments de relative i fixed.
+És relative mentre l’element pare és visible, 
+però quan fem scroll i arriba al top indicat, 
+es queda “enganxat” (com un fixed) fins que el pare desapareix.
+Ideal per fer capçaleres fixes dins d’una secció.
+*/
+.sticky {
+  position: sticky;
+  top: 0; /* quan arribi a la part superior del contenidor, es fixa */
+  background-color: mediumslateblue;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <!-- Exemple de meta viewport tal com s'explica al PDF -->
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+  <title>Viewport — Unitats vh / vw / vmin / vmax</title>
+  <link rel="stylesheet" href="bites.css">
+</head>
+<body>
+  <header>
+    <h1>Viewport: <code>vh</code>, <code>vw</code>, <code>vmin</code>, <code>vmax</code></h1>
+    <p>Exemples pràctics per veure com aquestes unitats prenen com a referència l'àrea visible del navegador.</p>
+  </header>
+
+  <section class="demo" id="full-hero">
+    <h2>Hero a 100vh</h2>
+    <div class="hero">
+      <div class="hero-inner">
+        <h3>Caixa a 100vh</h3>
+        <p>Aquesta secció ocupa exactament l'altura visible del navegador.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="demo" id="split">
+    <h2>Divisions en vw i vmin / vmax</h2>
+    <div class="split">
+      <div class="left">Left = 30vw</div>
+      <div class="center">Center = 40vw</div>
+      <div class="right">Right = 30vw</div>
+    </div>
+
+    <p>Un exemple amb <code>vmin</code> i <code>vmax</code> per fer una caixa quadrada que respecta el costat més petit/major.</p>
+    <div class="square-demo">
+      <div class="square">Quadrat amb <code>width:30vmin</code> i altura igual</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Meta i unitats de viewport conforme al PDF — prova redimensionant la finestra.</p>
+  </footer>
+</body>
+</html>
