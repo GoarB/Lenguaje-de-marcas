@@ -1,37 +1,193 @@
 <!DOCTYPE html>
 <html lang="ca">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Formulari de contacte amb la botiga de videojocs Only Gamer.">
-  <title>Contacte | Only Gamer</title>
-  <link rel="icon" href="img/og-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/estils.css">
-</head>
-<body>
-  <a class="skip-link" href="#contingut">Vés al contingut</a>
-  <header class="site-header">
-    <div class="container header-content">
-      <a class="brand" href="index.html" aria-label="Only Gamer, inici"><span class="brand-mark">OG<span>.</span></span><span>ONLY GAMER</span></a>
-      <nav aria-label="Navegació principal"><ul class="nav-list"><li><a href="index.html" >Catàleg</a></li><li><a href="fitxa.html" >Fitxa destacada</a></li><li><a href="contacte.html" aria-current="page">Contacte</a></li></ul></nav>
-    </div>
-  </header>
-  <main id="contingut" class="container inner-page"><p class="eyebrow">PARLEM?</p><h1>Contacta amb Only Gamer<span class="accent">.</span></h1><p>Utilitza aquest formulari de demostració per consultar disponibilitat, preus o informació sobre videojocs.</p>
-<section class="form-panel" aria-labelledby="formulari-titol"><h2 id="formulari-titol">Formulari de contacte</h2>
-<form action="contacte.html" method="get">
-<div class="form-grid"><div class="field"><label for="nom">Nom complet <span aria-hidden="true">*</span></label><input id="nom" name="nom" type="text" autocomplete="name" required></div>
-<div class="field"><label for="correu">Correu electrònic <span aria-hidden="true">*</span></label><input id="correu" name="correu" type="email" autocomplete="email" required></div>
-<div class="field"><label for="telefon">Telèfon (opcional)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel"></div>
-<div class="field"><label for="quantitat">Unitats que t'interessen</label><input id="quantitat" name="quantitat" type="number" min="1" max="99" value="1"></div>
-<div class="field form-wide"><label for="motiu">Motiu de la consulta <span aria-hidden="true">*</span></label><select id="motiu" name="motiu" required><option value="">Selecciona una opció</option><option value="estoc">Disponibilitat</option><option value="preu">Preu</option><option value="videojoc">Informació d'un videojoc</option><option value="altres">Altres consultes</option></select></div>
-<div class="field form-wide"><label for="missatge">Missatge <span aria-hidden="true">*</span></label><textarea id="missatge" name="missatge" rows="6" required placeholder="Escriu aquí la teva consulta..."></textarea></div></div>
-<fieldset><legend>Com prefereixes que et contactem?</legend><label class="choice"><input type="radio" name="preferencia" value="correu" checked> Per correu electrònic</label><label class="choice"><input type="radio" name="preferencia" value="telefon"> Per telèfon</label></fieldset>
-<label class="choice"><input type="checkbox" id="privacitat" name="privacitat" required> Accepto que les dades introduïdes s'utilitzin únicament per a aquesta demostració acadèmica. *</label>
-<p class="form-help">* Camps obligatoris. Aquest formulari és una maqueta estàtica: no envia ni emmagatzema consultes.</p>
-<button class="button" type="submit">Comprovar i continuar</button></form></section></main>
-  <footer class="site-footer">
-    <div class="container footer-content"><p><strong>ONLY GAMER<span class="accent">.</span></strong><br>Videojocs per a totes les aventures.</p>
-    <p>Divisa: EUR · Catàleg actualitzat: 11/10/2026</p></div>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulari de contacte amb la botiga de videojocs Only Gamer.">
+    <title>Contacte | Only Gamer</title>
+    <link rel="icon" href="img/og-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/estils.css">
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contingut">Vés al contingut</a>
+
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="index.html" aria-label="Only Gamer, inici">
+          <span class="brand-mark">
+            OG<span>.</span>
+          </span>
+          <span>ONLY GAMER</span>
+        </a>
+
+        <nav aria-label="Navegació principal">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html">Catàleg</a>
+            </li>
+            <li>
+              <a href="fitxa.html">Fitxa destacada</a>
+            </li>
+            <li>
+              <a href="contacte.html" aria-current="page">Contacte</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contingut" class="container inner-page">
+      <p class="eyebrow">PARLEM?</p>
+
+      <h1>
+        Contacta amb Only Gamer<span class="accent">.</span>
+      </h1>
+
+      <p>
+        Utilitza aquest formulari de demostració per consultar disponibilitat,
+        preus o informació sobre videojocs.
+      </p>
+
+      <section class="form-panel" aria-labelledby="formulari-titol">
+        <h2 id="formulari-titol">Formulari de contacte</h2>
+
+        <form action="contacte.html" method="get">
+          <div class="form-grid">
+            <div class="field">
+              <label for="nom">
+                Nom complet <span aria-hidden="true">*</span>
+              </label>
+              <input
+                id="nom"
+                name="nom"
+                type="text"
+                autocomplete="name"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="correu">
+                Correu electrònic <span aria-hidden="true">*</span>
+              </label>
+              <input
+                id="correu"
+                name="correu"
+                type="email"
+                autocomplete="email"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="telefon">Telèfon (opcional)</label>
+              <input
+                id="telefon"
+                name="telefon"
+                type="tel"
+                autocomplete="tel"
+              >
+            </div>
+
+            <div class="field">
+              <label for="quantitat">Unitats que t'interessen</label>
+              <input
+                id="quantitat"
+                name="quantitat"
+                type="number"
+                min="1"
+                max="99"
+                value="1"
+              >
+            </div>
+
+            <div class="field form-wide">
+              <label for="motiu">
+                Motiu de la consulta <span aria-hidden="true">*</span>
+              </label>
+
+              <select id="motiu" name="motiu" required>
+                <option value="">Selecciona una opció</option>
+                <option value="estoc">Disponibilitat</option>
+                <option value="preu">Preu</option>
+                <option value="videojoc">Informació d'un videojoc</option>
+                <option value="altres">Altres consultes</option>
+              </select>
+            </div>
+
+            <div class="field form-wide">
+              <label for="missatge">
+                Missatge <span aria-hidden="true">*</span>
+              </label>
+
+              <textarea
+                id="missatge"
+                name="missatge"
+                rows="6"
+                required
+                placeholder="Escriu aquí la teva consulta..."
+              ></textarea>
+            </div>
+          </div>
+
+          <fieldset>
+            <legend>Com prefereixes que et contactem?</legend>
+
+            <label class="choice">
+              <input
+                type="radio"
+                name="preferencia"
+                value="correu"
+                checked
+              >
+              Per correu electrònic
+            </label>
+
+            <label class="choice">
+              <input
+                type="radio"
+                name="preferencia"
+                value="telefon"
+              >
+              Per telèfon
+            </label>
+          </fieldset>
+
+          <label class="choice">
+            <input
+              type="checkbox"
+              id="privacitat"
+              name="privacitat"
+              required
+            >
+            Accepto que les dades introduïdes s'utilitzin únicament per a aquesta demostració acadèmica. *
+          </label>
+
+          <p class="form-help">
+            * Camps obligatoris. Aquest formulari és una maqueta estàtica:
+            no envia ni emmagatzema consultes.
+          </p>
+
+          <button class="button" type="submit">
+            Comprovar i continuar
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>
+          <strong>ONLY GAMER<span class="accent">.</span></strong>
+          <br>
+          Videojocs per a totes les aventures.
+        </p>
+
+        <p>
+          Divisa: EUR · Catàleg actualitzat: 11/10/2026
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
