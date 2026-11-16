@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    color: #121212;
+    font-family: Arial, sans-serif;
+}
+
+body.tema-fosc {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.caixa {
+    background-color: aqua;
+    color: bisque;
+}
+
+.caixa2 {
+    background-color: #ebfc00;
+    color: #f700ff;
+}
+li > button{
+    margin-left: 5px;
+}
